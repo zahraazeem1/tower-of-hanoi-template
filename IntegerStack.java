@@ -46,4 +46,10 @@ public class IntegerStack {
     {
         return stack[index];
     }
+
+    // ✅ Add this missing method
+    public boolean isEmpty()
+    {
+        return depth == 0;
+    }
 }
